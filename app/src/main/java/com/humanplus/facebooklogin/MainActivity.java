@@ -152,6 +152,8 @@ public class MainActivity extends AppCompatActivity {
                 graphRequest.executeAsync();
                 break;
                 */
+
+                // Here is the usage.
                 myNewGraphReq("me");
                 break;
         }
@@ -189,6 +191,8 @@ public class MainActivity extends AppCompatActivity {
                             }.start();
 
                             mImageView.setImageBitmap(fb_img);
+
+                            // In here, we set profile image to mImageView defined in xml file
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
